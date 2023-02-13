@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form method="post">
+            <input type="text" name="tarefa" placeholder="Insira sua tarefa..." required/>
+            <input type="submit" name="acao" value="Inserir" />
+        </form>
+
+        <% for(let i = 0; i < listaTarefas.length; i++){ %>
+
+            <div class="wrapper_tarefas">
+                <p class="single_tarefa"><%= listaTarefas[i] %></p>
+                <a class="link_remove" href="/delete/<%= i %>">X</a> 
+            </div>
+
+        <% } %>
+    </main>
+</body>
+</html>

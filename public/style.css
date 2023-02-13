@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+body{
+    background-color: #1b1b1b;
+}
+main{
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+    background-color: #2b2b2b;
+    border-radius: 20px;
+}
+form{
+   margin-bottom: 30px; 
+}
+input{
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+}
+.wrapper_tarefas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-width: 500px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #4b4b4b;
+}
+.single_tarefa{text-align: justify;}
+.single_tarefa,.link_remove{
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.link_remove{margin-left: 25px; font-size: 20px;}
