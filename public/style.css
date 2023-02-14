@@ -35,7 +35,7 @@ input{
     border-radius: 10px;
     background-color: #4b4b4b;
 }
-.single_tarefa{text-align: justify;}
+.single_tarefa{text-align: justify; word-break: break-all;}
 .single_tarefa,.link_remove{
     font-weight: 700;
     color: #fff;
