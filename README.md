@@ -11,6 +11,8 @@ Fiz este projeto para trabalhar minhas habilidades iniciais em **Nodejs**, traba
    - Para dar vida a página.
    - Criação de rotas
      - Criação de uma rota para deletar um item com base no ID
+     
+2. **Express**
    
 2. **CSS3**
    - Para fazer a estilização da página.
