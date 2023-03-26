@@ -13,6 +13,7 @@ Fiz este projeto para trabalhar minhas habilidades iniciais em **Nodejs**, traba
      - Criação de uma rota para deletar um item com base no ID
      
 2. **Express**
+   - Como  framework para o Nodejs
    
 2. **CSS3**
    - Para fazer a estilização da página.
